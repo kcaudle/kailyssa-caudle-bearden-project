@@ -1,0 +1,97 @@
+.heading {
+    display: flex;
+    align-items: center;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: rgb(238, 238, 238);
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+ 
+.heading > .exploring-links {
+    padding-left: 60px;
+    padding-right: 40px;
+}
+.heading > .exploring-links > .explore-text {
+    color: #ffc642;
+    font-size: 12px;
+}
+
+.heading > .exploring-links > .not-real-links > .fake-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bolder;
+}
+
+
+.heading > .logo img {
+    height: 80px;
+    width: 140px;
+    filter: invert(100%);
+}
+
+.heading > .exploring-links {
+    flex-direction: column;
+}
+
+.heading > .exploring-links > .not-real-links {
+    display: flex;
+    justify-content: center;
+}
+
+.heading > .exploring-links > .not-real-links > .fake-links{
+    padding-right: 15px;
+    font-weight: bold;
+}
+
+.heading > .spark-dropdown {
+    display: flex;
+    align-items: center;
+    color: rgb(153, 153, 153);
+    font-size: medium;
+    padding-right: 200px;
+}
+
+.heading > .spark-dropdown > .spark-text {
+    padding-right: 8px;
+    color: rgb(153, 153, 153);
+    font-size: medium;
+}
+
+.heading > .create-dropdown button, .log-in button, .sign-up button {
+    background-color: rgb(71, 71, 71);
+    color: white;
+    font-size: medium;
+    font-weight: medium;
+    padding: 15px 15px;
+    border: 1px solid rgb(71, 71, 71);
+    border-radius: 2px;
+    outline: none;
+    transition: none;
+    display: flex;
+    align-items: center;
+}
+
+.heading > .create-dropdown button i {
+    padding-left: 8px;
+    color: rgb(116, 218, 116);
+    font-size: 20px;
+}
+
+.heading > .search-icon {
+ padding-right: 30px;    
+ padding-left: 30px;
+}
+
+.heading > .search-icon i {
+    color: rgb(153, 153, 153);
+    font-size: 26px;
+}
+
+.heading > .log-in {
+    padding-right: 12px;
+}
